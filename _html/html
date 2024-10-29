@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ferramentas de I.A</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" type="image/png" href="images/configuracao.png" />
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <a href="">Inteligência Artificial</a>
+            <form method="GET" action="">
+                <input type="search" name="q" placeholder="Pesquise por I.A" />
+            </form>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li class="active"><a href="">Todos</a></li>
+            <li class=""><a href="">ChatBot</a></li>
+            <li class=""><a href="">Gerador de Imagens</a></li>
+            <li class=""><a href="">Animador de imagens</a></li>
+        </ul>
+    </nav>
+    <section class="banner" style="background-image: url('images/inteligencia-artificial.jpg')">
+        Todas as ferramentas de I.A</section>
+    <h2>Todas as ferramentas disponíveis para serem utilizadas</h2>
+
+    <div class="container list">
+        <div class="item">
+            <img src="images/perplexity.jpeg" class="item--image" />
+            <div class="item--name">Perplexity AI</div>
+            <div class="item--descricao">Descrição: Criam textos, traduzem idiomas e respondem a perguntas.</div>
+            <div class="item--tipo">Tipo: ChatBot</div>
+        </div>
+        <div class="item">
+            <img src="images/chatgpt555.png" class="item--image" />
+            <div class="item--name">Chat GPT</div>
+            <div class="item--descricao">Descrição: Criam textos, traduzem idiomas e respondem a perguntas.</div>
+            <div class="item--tipo">Tipo: ChatBot</div>
+        </div>
+        <div class="item">
+            <img src="images/geme.jpg" class="item--image" />
+            <div class="item--name">Gemini</div>
+            <div class="item--descricao">Descrição: Criam textos, traduzem idiomas e respondem a perguntas.</div>
+            <div class="item--tipo">Tipo: ChatBot</div>
+        </div>
+        <div class="item">
+            <img src="images/Copilot.jpg" class="item--image" />
+            <div class="item--name">Copilot</div>
+            <div class="item--descricao">Descrição: Criam textos, traduzem idiomas e respondem a perguntas.</div>
+            <div class="item--tipo">Tipo: ChatBot</div>
+        </div>
+        <div class="item">
+            <img src="images/Meta-AI_Updated-jpg.webp" class="item--image" />
+            <div class="item--name">Meta AI</div>
+            <div class="item--descricao">Descrição: Criam textos, traduzem idiomas e respondem a perguntas.</div>
+            <div class="item--tipo">Tipo: ChatBot</div>
+        </div>
+        <div class="item">
+            <img src="images/Leonardo-AI-logo.jpg" class="item--image" />
+            <div class="item--name">Leonardo AI</div>
+            <div class="item--descricao">Descrição: Transformam descrições em imagens realistas ou artísticas.</div>
+            <div class="item--tipo">Tipo: Gerador de Imagens</div>
+        </div>
+        <div class="item">
+            <img src="images/Midjourney.jpg" class="item--image" />
+            <div class="item--name">Midjourney</div>
+            <div class="item--descricao">Descrição: Geração de Imagens</div>
+            <div class="item--tipo">Tipo: Gerador de Imagens</div>
+        </div>
+        <div class="item">
+            <img src="images/flux.png" class="item--image" />
+            <div class="item--name">Flux AI</div>
+            <div class="item--descricao">Descrição: Transformam descrições em imagens realistas ou artísticas.</div>
+            <div class="item--tipo">Tipo: Gerador de Imagens</div>
+        </div>
+        <div class="item">
+            <img src="images/seaart-768x368.jpg" class="item--image" />
+            <div class="item--name">Sea Art</div>
+            <div class="item--descricao">Descrição: Transformam descrições em imagens realistas ou artísticas.</div>
+            <div class="item--tipo">Tipo: Gerador de Imagens</div>
+        </div>
+        <div class="item">
+            <img src="images/Dalle-3--scaled.jpg" class="item--image" />
+            <div class="item--name">Dall E-3</div>
+            <div class="item--descricao">Descrição: Transformam descrições em imagens realistas ou artísticas.</div>
+            <div class="item--tipo">Tipo: Gerador de Imagens</div>
+        </div>
+        <div class="item">
+            <img src="images/lumaai.png" class="item--image" />
+            <div class="item--name">Luma AI</div>
+            <div class="item--descricao">Descrição: Oferecem diversas ferramentas de IA para diferentes áreas, como
+                edição de vídeo e desenvolvimento de apps.</div>
+            <div class="item--tipo">Tipo: Animador de imagens</div>
+        </div>
+        <div class="item">
+            <img src="images/hai.png" class="item--image" />
+            <div class="item--name">Hailuo AI</div>
+            <div class="item--descricao">Descrição: Oferecem diversas ferramentas de IA para diferentes áreas, como
+                edição de vídeo e desenvolvimento de apps.</div>
+            <div class="item--tipo">Tipo: Animador de imagens</div>
+        </div>
+        <div class="item">
+            <img src="images/pik.jpg" class="item--image" />
+            <div class="item--name">Pika AI</div>
+            <div class="item--descricao">Descrição: Oferecem diversas ferramentas de IA para diferentes áreas, como
+                edição de vídeo e desenvolvimento de apps.</div>
+            <div class="item--tipo">Tipo: Animador de imagens</div>
+        </div>
+        <div class="item">
+            <img src="images/runway-ml-logo.jpg" class="item--image" />
+            <div class="item--name">Runway</div>
+            <div class="item--descricao">Descrição: Oferecem diversas ferramentas de IA para diferentes áreas, como
+                edição de vídeo e desenvolvimento de apps.</div>
+            <div class="item--tipo">Tipo: Animador de imagens</div>
+        </div>
+        <div class="item">
+            <img src="images/kaiber.png" class="item--image" />
+            <div class="item--name">Kaiber</div>
+            <div class="item--descricao">Descrição: Oferecem diversas ferramentas de IA para diferentes áreas, como
+                edição de vídeo e desenvolvimento de apps.</div>
+            <div class="item--tipo">Tipo: Animador de imagens</div>
+        </div>
+    </div>
+
+    <footer class="container">
+        Feito por Danilo Bellasques
+    </footer>
+</body>
+
+</html>
