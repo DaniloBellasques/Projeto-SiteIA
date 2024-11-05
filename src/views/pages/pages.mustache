@@ -5,10 +5,20 @@
     <h2>{{title}} para serem utilizadas</h2>
 {{/banner}}
     <div class="container list">
+    {{#list}}
         <div class="item">
-            <img src="images/perplexity.jpeg" class="item--image" />
-            <div class="item--name">Perplexity AI</div>
-            <div class="item--descricao">Descrição: Criam textos, traduzem idiomas e respondem a perguntas.</div>
-            <div class="item--tipo">Tipo: ChatBot</div>
+            <img src="images/{{image}}" class="item--image" />
+            <div class="item--name">{{name}}</div>
+            <div class="item--descricao">{{descricao}}</div>
+            <div class="item--tipo">{{type}}</div>
         </div>
+        {{/list}}
+    </div>
+
+    {{^list}}
+    <div class = 'container no-list'>
+        <h2> Não encontramos ferramentas disponíveis com esse nome<h2/>
+    </div>
+    {{/list}}
+
     {{>partials/footer}}

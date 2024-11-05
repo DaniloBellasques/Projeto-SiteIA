@@ -105,6 +105,8 @@ h2 {
     font-weight: bold;
     margin-bottom: 5px;
     color: white;
+    padding-bottom: 5px;
+    
 }
 .item--type,
 .item--descricao,
@@ -112,6 +114,7 @@ h2 {
     font-size: 17px;
     color: white;
     margin-bottom: 3px;
+    padding-bottom: 5px;
 }
 
 footer {
